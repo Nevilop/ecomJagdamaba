@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../MyProfile/myprofile.css";
+// import "../MyProfile/myprofile.css";
 import Wishlist from "../wishlist/Wishlist";
 import { RiStarFill, RiStarHalfFill } from "@remixicon/react";
 import { Cart } from "react-bootstrap-icons";
