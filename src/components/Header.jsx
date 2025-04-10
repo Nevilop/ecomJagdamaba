@@ -15,7 +15,7 @@ import {
   Search,
 } from "lucide-react";
 import { Dropdown, Badge } from "react-bootstrap";
-// import "./header.css";
+import "./header.css";
 import { useCart } from "../context/CartContext";
 import { Link } from "react-router-dom";
 import { useWishlist } from "../context/WishlistContext";
@@ -94,7 +94,7 @@ const Header = () => {
 
           {/* Search */}
           <div
-            className={`e-search-wrapper ${isSearchExpanded ? "expanded" : ""}`}
+            className={e-search-wrapper ${isSearchExpanded ? "expanded" : ""}}
           >
             <input
               type="search"
@@ -144,8 +144,6 @@ const Header = () => {
               className="e-action-item e-user-dropdown"
               onMouseEnter={() => setShowProfile(true)}
               onMouseLeave={() => setShowProfile(false)}
-              show={showProfile}
-              align="end"
             >
               <Dropdown.Toggle
                 variant="link"
@@ -192,7 +190,7 @@ const Header = () => {
         </div>
 
         {/* Navigation */}
-        <div className={`e-navbar-nav ${mobileMenuOpen ? "open" : ""}`}>
+        <div className={e-navbar-nav ${mobileMenuOpen ? "open" : ""}}>
           <ul className="e-nav-list">
             <li className="e-nav-item">
               <a className="e-nav-link active" href="/">
@@ -209,7 +207,7 @@ const Header = () => {
               <a className="e-nav-link" href="#">
                 Products <ChevronDown size={16} className="e-dropdown-arrow" />
               </a>
-              <div className={`e-mega-menu  ${showProduct ? "show" : ""}`}>
+              <div className={e-mega-menu  ${showProduct ? "show" : ""}}>
                 <div
                   className="e-mega-container"
                   style={{ backgroundColor: "white" }}
