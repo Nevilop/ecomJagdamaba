@@ -15,7 +15,7 @@ import {
   Search,
 } from "lucide-react";
 import { Dropdown, Badge } from "react-bootstrap";
-import "./header.css";
+// import "./header.css";
 import { useCart } from "../context/CartContext";
 import { Link } from "react-router-dom";
 import { useWishlist } from "../context/WishlistContext";
