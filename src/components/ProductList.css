@@ -1,0 +1,97 @@
+/* Product Slider Styles */
+.product-swiper {
+    padding: 10px 0 40px;
+    position: relative;
+    background-color: white;
+  }
+  .detailspage .productInfo {
+    padding-left: 50px;
+  }
+  
+  .product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image {
+    height: 220px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover .product-image {
+    transform: scale(1.05);
+  }
+  
+  .product-title {
+    font-size: 1rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .favorite-btn {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    border: none;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    padding: 0 !important;
+    transition: all 0.2s ease;
+  }
+  
+  .favorite-btn:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: scale(1.1);
+  }
+  
+  /* Custom navigation buttons */
+  .custom-nav-prev,
+  .custom-nav-next {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-nav-prev:after,
+  .custom-nav-next:after {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .custom-nav-prev {
+    left: 0;
+  }
+  
+  .custom-nav-next {
+    right: 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
+    .product-image {
+      height: 180px;
+    }
+  
+    .product-title {
+      font-size: 0.9rem;
+    }
+  }
+  
+  
