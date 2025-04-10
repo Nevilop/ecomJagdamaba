@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
-import "./Banner.css";
+import "./banner.css";
 import { Link } from "react-router";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Card } from "react-bootstrap";
